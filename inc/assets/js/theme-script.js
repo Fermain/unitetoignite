@@ -11,7 +11,7 @@ jQuery( function ( $ ) {
 
     // the search widget
     $( '.widget_search input.search-field' ).addClass( 'form-control' );
-    $( '.widget_search input.search-submit' ).addClass( 'btn btn-default' );
+    $( '.widget_search input.search-submit' ).addClass( 'btn btn-primary' );
     $( '.variations_form .variations .value > select' ).addClass( 'form-control' );
     $( '.widget_rss ul' ).addClass( 'media-list' );
 
