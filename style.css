@@ -63,3 +63,7 @@ Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, 
   background: var(--dark);
   color: var(--white);
 }
+
+.footer-branding {
+  max-width: 10rem;
+}

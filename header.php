@@ -49,7 +49,7 @@
 
 <div class="site min-vh-100 d-flex flex-column" id="page">
     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
-    <header id="masthead" class="sticky-top mb-4">
+    <header id="masthead" class="mb-0 mb-md-4">
         <div class="container">
             <div class="row justify-content-between mt-2 mt-md-4">
                 <div class="col col-md-auto">
@@ -57,8 +57,8 @@
                         <object data="/wp-content/themes/unitetoignite/images/branding/logo-linear.svg" type="image/svg+xml" class="img-fluid w-100"></object>
                     </a>
                 </div>
-                <div class="col-auto col-md-auto d-flex align-items-center">
-                    <nav class="social-nav d-flex flex-column flex-md-row">
+                <div class="col-auto d-flex align-items-center">
+                    <nav class="social-nav">
                         <a href="#" class="icon m-2 h4">
                             <i class="icofont-facebook"></i>
                         </a>
@@ -71,24 +71,24 @@
                     </nav>
                 </div>
             </div>
-            <div class="row justify-content-between mt-4">
+            <div class="row justify-content-between mt-2 mt-md-4">
                 <div class="col-auto">
-                    <a href="/" class="text-dark h5 font-weight-bold">Home</a>
+                    <a href="/" class="text-dark h5 font-weight-bold mb-2 mb-md-0">Home</a>
                 </div>
                 <div class="col-auto">
-                    <a href="#" class="text-dark h5 font-weight-bold">About</a>
+                    <a href="#" class="text-dark h5 font-weight-bold mb-2 mb-md-0">About</a>
                 </div>
                 <div class="col-auto">
-                    <a href="#" class="text-dark h5 font-weight-bold">How it Works</a>
+                    <a href="#" class="text-dark h5 font-weight-bold mb-2 mb-md-0">How it Works</a>
                 </div>
                 <div class="col-auto">
-                    <a href="#" class="text-dark h5 font-weight-bold">The Hub</a>
+                    <a href="#" class="text-dark h5 font-weight-bold mb-2 mb-md-0">The Hub</a>
                 </div>
                 <div class="col-auto">
-                    <a href="#" class="text-dark h5 font-weight-bold">Insight</a>
+                    <a href="#" class="text-dark h5 font-weight-bold mb-2 mb-md-0">Insight</a>
                 </div>
                 <div class="col-auto">
-                    <a href="#" class="text-dark h5 font-weight-bold">Ignite Now</a>
+                    <a href="#" class="text-dark h5 font-weight-bold mb-2 mb-md-0">Ignite Now</a>
                 </div>
             </div>
         </div>
