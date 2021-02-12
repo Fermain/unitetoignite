@@ -44,17 +44,7 @@
                     </a>
                 </div>
                 <div class="col-auto d-flex align-items-center">
-                    <nav class="social-nav">
-                        <a href="#" class="icon m-2 h4">
-                            <i class="icofont-facebook"></i>
-                        </a>
-                        <a href="#" class="icon m-2 h4">
-                            <i class="icofont-instagram"></i>
-                        </a>
-                        <a href="#" class="icon m-2 h4">
-                            <i class="icofont-twitter"></i>
-                        </a>
-                    </nav>
+                    <?php get_template_part('partials/social', 'nav'); ?>
                 </div>
             </div>
             <?php 

@@ -45,6 +45,9 @@
                         'walker'          => new WP_Bootstrap_Navwalker(),
                     ) );
                     ?>
+                    <div class="mt-3">
+                        <?php get_template_part('partials/social', 'nav'); ?>
+                    </div>
                 </div>
                 <div class="col-6 col-md-3">
                     <?php 
