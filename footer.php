@@ -19,58 +19,46 @@
         <div class="container">
             <div class="row">
                 <div class="col-6 col-md-3">
-                    <div class="navbar navbar-dark p-0">
-                        <ul class="navbar-nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Active</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <?php 
+                    wp_nav_menu( array(
+                        'theme_location'  => 'footer-one',
+                        'depth'           => 1, // 1 = no dropdowns, 2 = with dropdowns.
+                        'container'       => 'div',
+                        'container_class' => 'navbar navbar-dark p-0',
+                        'container_id'    => 'main-nav',
+                        'menu_class'      => 'navbar-nav flex-column',
+                        'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                        'walker'          => new WP_Bootstrap_Navwalker(),
+                    ) );
+                    ?>
                 </div>
                 <div class="col-6 col-md-3">
-                    <div class="navbar navbar-dark p-0">
-                        <ul class="navbar-nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Active</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <?php 
+                    wp_nav_menu( array(
+                        'theme_location'  => 'footer-two',
+                        'depth'           => 1, // 1 = no dropdowns, 2 = with dropdowns.
+                        'container'       => 'div',
+                        'container_class' => 'navbar navbar-dark p-0',
+                        'container_id'    => 'main-nav',
+                        'menu_class'      => 'navbar-nav flex-column',
+                        'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                        'walker'          => new WP_Bootstrap_Navwalker(),
+                    ) );
+                    ?>
                 </div>
                 <div class="col-6 col-md-3">
-                    <div class="navbar navbar-dark p-0">
-                        <ul class="navbar-nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Active</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <?php 
+                    wp_nav_menu( array(
+                        'theme_location'  => 'footer-three',
+                        'depth'           => 1, // 1 = no dropdowns, 2 = with dropdowns.
+                        'container'       => 'div',
+                        'container_class' => 'navbar navbar-dark p-0',
+                        'container_id'    => 'main-nav',
+                        'menu_class'      => 'navbar-nav flex-column',
+                        'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                        'walker'          => new WP_Bootstrap_Navwalker(),
+                    ) );
+                    ?>
                 </div>
                 <div class="col-6 col-md-3">
                     <div class="footer-branding">
