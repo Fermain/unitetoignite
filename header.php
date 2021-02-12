@@ -33,20 +33,6 @@
 
 ?>
 
-<?php
-                // wp_nav_menu(array(
-                // 'theme_location'    => 'primary',
-                // 'container'       => 'div',
-                // 'container_id'    => 'main-nav',
-                // 'container_class' => 'collapse navbar-collapse justify-content-end',
-                // 'menu_id'         => false,
-                // 'menu_class'      => 'navbar-nav',
-                // 'depth'           => 3,
-                // 'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
-                // 'walker'          => new wp_bootstrap_navwalker()
-                // ));
-                ?>
-
 <div class="site min-vh-100 d-flex flex-column" id="page">
     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
     <header id="masthead" class="mb-0 mb-md-4">
@@ -71,26 +57,18 @@
                     </nav>
                 </div>
             </div>
-            <div class="row justify-content-between mt-2 mt-md-4">
-                <div class="col-auto">
-                    <a href="/" class="text-dark h5 font-weight-bold mb-2 mb-md-0">Home</a>
-                </div>
-                <div class="col-auto">
-                    <a href="#" class="text-dark h5 font-weight-bold mb-2 mb-md-0">About</a>
-                </div>
-                <div class="col-auto">
-                    <a href="#" class="text-dark h5 font-weight-bold mb-2 mb-md-0">How it Works</a>
-                </div>
-                <div class="col-auto">
-                    <a href="#" class="text-dark h5 font-weight-bold mb-2 mb-md-0">The Hub</a>
-                </div>
-                <div class="col-auto">
-                    <a href="#" class="text-dark h5 font-weight-bold mb-2 mb-md-0">Insight</a>
-                </div>
-                <div class="col-auto">
-                    <a href="#" class="text-dark h5 font-weight-bold mb-2 mb-md-0">Ignite Now</a>
-                </div>
-            </div>
+            <?php 
+            wp_nav_menu( array(
+                'theme_location'  => 'primary',
+                'depth'           => 1, // 1 = no dropdowns, 2 = with dropdowns.
+                'container'       => 'div',
+                'container_class' => '',
+                'container_id'    => 'main-nav',
+                'menu_class'      => 'navbar-nav d-flex justify-content-between flex-row flex-wrap',
+                'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                'walker'          => new WP_Bootstrap_Navwalker(),
+            ) );
+            ?>
         </div>
     </header>
     

@@ -67,3 +67,15 @@ Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, 
 .footer-branding {
   max-width: 10rem;
 }
+
+header .nav-link {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: var(--dark);
+}
+
+@media screen and (max-width: 400px) {
+  .social-nav {
+    display: none;
+  }
+}
