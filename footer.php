@@ -63,7 +63,7 @@
                     ) );
                     ?>
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="d-none d-md-block col-md-3">
                     <div class="footer-branding">
                         <object data="/wp-content/themes/unitetoignite/images/branding/logo-stacked.svg" type="image/svg+xml" class="img-fluid w-100"></object>
                     </div>
