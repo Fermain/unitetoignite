@@ -1,20 +1,32 @@
 <?php
 
-if ( is_active_sidebar( 'footer-1' ) || is_active_sidebar( 'footer-2' ) || is_active_sidebar( 'footer-3' ) ) {?>
+if ( is_active_sidebar( 'footer-' ) ) {?>
         <div id="footer-widget" class="row m-0 <?php if(!is_theme_preset_active()){ echo 'bg-light'; } ?>">
             <div class="container">
                 <div class="row">
-                    <?php if ( is_active_sidebar( 'footer-1' )) : ?>
-                        <div class="col-12 col-md-4"><?php dynamic_sidebar( 'footer-1' ); ?></div>
-                    <?php endif; ?>
-                    <?php if ( is_active_sidebar( 'footer-2' )) : ?>
-                        <div class="col-12 col-md-4"><?php dynamic_sidebar( 'footer-2' ); ?></div>
-                    <?php endif; ?>
-                    <?php if ( is_active_sidebar( 'footer-3' )) : ?>
-                        <div class="col-12 col-md-4"><?php dynamic_sidebar( 'footer-3' ); ?></div>
+                    <?php if ( is_active_sidebar( 'footer' )) : ?>
+                        <div class="col-12"><?php dynamic_sidebar( 'footer' ); ?></div>
                     <?php endif; ?>
                 </div>
             </div>
         </div>
 
+        <div class="bg-yellow">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2>are you ready to ignite?</h2>
+                </div>
+                <div class="row justify-content-center mb-4">
+                    <div class="col-12 col-md-4">
+                        <input type="text" class="form-control" id="signupName" placeholder="name">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <input type="email" class="form-control" id="signupEmail" placeholder="email">
+                    </div>
+                </div>
+                <div class="text-center mb-4">
+                    <button class="btn btn-dark btn-lg">> unite</button>
+                </div>
+            </div>
+        </div>
 <?php }

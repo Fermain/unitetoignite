@@ -46,6 +46,10 @@ Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, 
   --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
 header .social-nav {
   color: var(--yellow);
 }
