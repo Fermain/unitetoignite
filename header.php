@@ -40,7 +40,7 @@
             <div class="row justify-content-between mt-2 mt-md-4">
                 <div class="col col-md-auto">
                     <a href="/">
-                        <object data="/wp-content/themes/unitetoignite/images/branding/logo-linear.svg" type="image/svg+xml" class="img-fluid w-100"></object>
+                        <img src="/wp-content/themes/unitetoignite/images/branding/logo-linear.svg" class="img-fluid w-100"></object>
                     </a>
                 </div>
                 <div class="col-auto d-flex align-items-center">
