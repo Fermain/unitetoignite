@@ -13,4 +13,6 @@ Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, 
 */
 
 @import url('/wp-content/themes/unitetoignite/fonts/icofont/icofont.min.css');
+@import url('/wp-content/themes/unitetoignite/fonts/gotham/gotham.css');
+@import url('/wp-content/themes/unitetoignite/fonts/gilroy/gilroy.css');
 @import "./css/main.css";
