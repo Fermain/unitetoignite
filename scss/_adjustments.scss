@@ -39,6 +39,52 @@ footer {
   display: inline-block;
 }
 
+.widget-title {
+  display: none;
+}
+
+.special-heading {
+  margin-bottom: 1.5rem;
+  color: $secondary;
+  padding-top: 5rem;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4rem;
+    background-image: url('/wp-content/themes/unitetoignite/images/motif/thunderbolt-yellow.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &:after {
+    content: ".";
+    color: $primary;
+  }
+}
+
+.wp-block-image img {
+  height: auto;
+}
+
+blockquote p {
+  &:first-child:before {
+    content: "❛";
+    color: $primary;
+  }
+
+  &:last-child:after {
+    content: "❜";
+    color: $primary;
+    margin-left: 0.5rem;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .social-nav {
     display: none;
