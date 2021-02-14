@@ -1,0 +1,18 @@
+/*
+Theme Name: Unite to Ignite
+Author: Fermain
+Author URI: https://unitetoignite.co.uk/
+Description:  2021 Original theme for Unite to Ignite, based off wp-bootstrap-starter theme by Afterimage Designs.
+Version: 3.3.6
+License: GNU General Public License v2 or later
+Text Domain: unite-to-ignite
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Tested up to: 5.4
+Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
+*/
+
+@import url('/wp-content/themes/unitetoignite/fonts/icofont/icofont.min.css');
+@import url('/wp-content/themes/unitetoignite/fonts/gotham/gotham.css');
+@import url('/wp-content/themes/unitetoignite/fonts/gilroy/gilroy.css');
+@import "./css/main.css";
