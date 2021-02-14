@@ -16,6 +16,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/unitetoignite/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/unitetoignite/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/unitetoignite/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/wp-content/themes/unitetoignite/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/wp-content/themes/unitetoignite/images/favicon/safari-pinned-tab.svg" color="#ecd43b">
+    <link rel="shortcut icon" href="/wp-content/themes/unitetoignite/images/favicon/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Unite to Ignite">
+    <meta name="application-name" content="Unite to Ignite">
+    <meta name="msapplication-TileColor" content="#ecd43b">
+    <meta name="msapplication-config" content="/wp-content/themes/unitetoignite/images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ecd43b">
 <?php wp_head(); ?>
 </head>
 
@@ -62,6 +73,6 @@
     </header>
     
 	<div id="content" class="site-content flex-grow-1">
-		<div class="container">
-			<div class="row">
+		<!-- <div class="container">
+			<div class="row"> -->
                 <?php endif; ?>
