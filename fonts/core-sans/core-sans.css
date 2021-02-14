@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Core Sans C 35';
+    src: url('CoreSansC-35Light.woff2') format('woff2'),
+        url('CoreSansC-35Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
