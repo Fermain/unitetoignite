@@ -11,7 +11,7 @@ if ( is_active_sidebar( 'footer-' ) ) {?>
             </div>
         </div>
 
-        <div class="bg-yellow mailchimp-subscribe">
+        <div class="bg-primary mailchimp-subscribe">
             <div class="container">
                 <div class="text-center mb-4">
                     <div class="motif text-center">

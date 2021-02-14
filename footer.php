@@ -15,7 +15,7 @@
 		</div><!-- .container -->
 	</div><!-- #content -->
     <?php get_template_part( 'footer-widget' ); ?>
-	<footer id="colophon" class="site-footer py-5 mt-4" role="contentinfo">
+	<footer id="colophon" class="site-footer bg-dark text-white py-5 mt-4" role="contentinfo">
         <div class="container">
             <div class="row">
                 <div class="col-6 col-md-3">

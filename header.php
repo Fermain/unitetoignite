@@ -43,7 +43,7 @@
                         <img src="/wp-content/themes/unitetoignite/images/branding/logo-linear.svg" class="img-fluid w-100"></object>
                     </a>
                 </div>
-                <div class="col-auto d-flex align-items-center">
+                <div class="col-auto d-flex align-items-center text-primary">
                     <?php get_template_part('partials/social', 'nav'); ?>
                 </div>
             </div>
