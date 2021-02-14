@@ -11,9 +11,12 @@ if ( is_active_sidebar( 'footer-' ) ) {?>
             </div>
         </div>
 
-        <div class="bg-yellow">
+        <div class="bg-yellow mailchimp-subscribe">
             <div class="container">
                 <div class="text-center mb-4">
+                    <div class="motif text-center">
+                        <img src="/wp-content/themes/unitetoignite/images/motif/thunderbolt-white.svg" class="img-fluid" />
+                    </div>
                     <h2>are you ready to ignite?</h2>
                 </div>
                 <div class="row justify-content-center mb-4">

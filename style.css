@@ -90,6 +90,12 @@ header .nav-link {
   color: var(--dark);
 }
 
+.motif {
+  max-width: 3rem;
+  width: 100%;
+  display: inline-block;
+}
+
 @media screen and (max-width: 400px) {
   .social-nav {
     display: none;
