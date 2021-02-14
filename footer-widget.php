@@ -20,15 +20,15 @@ if ( is_active_sidebar( 'footer-' ) ) {?>
                     <h2>are you ready to ignite?</h2>
                 </div>
                 <div class="row justify-content-center mb-4">
-                    <div class="col-12 col-md-4">
-                        <input type="text" class="form-control" id="signupName" placeholder="name">
+                    <div class="col-12 col-md-4 my-2">
+                        <input type="text" class="form-control bg-primary border-3 border-white rounded-0" id="signupName" placeholder="name">
                     </div>
-                    <div class="col-12 col-md-4">
-                        <input type="email" class="form-control" id="signupEmail" placeholder="email">
+                    <div class="col-12 col-md-4 my-2">
+                        <input type="email" class="form-control bg-primary border-3 border-white rounded-0" id="signupEmail" placeholder="email">
                     </div>
                 </div>
                 <div class="text-center mb-4">
-                    <button class="btn btn-dark btn-lg">> unite</button>
+                    <button class="btn btn-dark btn-lg px-5 h3">> unite</button>
                 </div>
             </div>
         </div>
