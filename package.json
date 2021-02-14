@@ -1,0 +1,22 @@
+{
+  "name": "unitetoignite",
+  "version": "1.0.0",
+  "description": "2021 Original theme for Unite to Ignite, based off wp-bootstrap-starter theme by Afterimage Designs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fermain/unitetoignite.git"
+  },
+  "author": "Fermain <diplomat@fermain.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fermain/unitetoignite/issues"
+  },
+  "homepage": "https://github.com/Fermain/unitetoignite#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2"
+  }
+}
