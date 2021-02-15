@@ -13,6 +13,19 @@
 <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
 		
 	</div><!-- #content -->
+    <div class="bg-primary mailchimp-subscribe pb-3">
+        <div class="container">
+            <div class="text-center mb-4">
+                <div class="motif text-center">
+                    <img src="/wp-content/themes/unitetoignite/images/motif/thunderbolt-white.svg" class="img-fluid" />
+                </div>
+                <h2 class="mt-3"><b>are you ready to ignite?</b></h2>
+            </div>
+            <div class="text-center mb-4">
+                <a href="/ignite-now" class="btn btn-dark btn-lg px-5 h3">> unite</a>
+            </div>
+        </div>
+    </div>
     <?php get_template_part( 'footer-widget' ); ?>
 	<footer id="colophon" class="site-footer bg-dark text-white py-5" role="contentinfo">
         <div class="container">
