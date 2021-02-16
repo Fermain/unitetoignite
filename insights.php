@@ -7,7 +7,7 @@ get_header(); ?>
 
 	<section id="primary" class="content-area col-12">
 		<div id="main" class="site-main blog container" role="main">
-
+			
 			<?php
 			while ( have_posts() ) : the_post();
 
